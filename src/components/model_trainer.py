@@ -15,7 +15,7 @@ from sklearn.linear_model import LinearRegression, Ridge,Lasso
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 from sklearn.model_selection import RandomizedSearchCV
 from catboost import CatBoostRegressor
-from xgboost import XGBRegressor
+#from xgboost import XGBRegressor
 import warnings
 
 from src.exception import CustomEXception
